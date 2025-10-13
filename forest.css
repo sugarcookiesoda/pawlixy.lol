@@ -1,0 +1,134 @@
+
+/* Body */
+body {
+  font-family: 'Lato', sans-serif;
+  background: #0c0f0a url('https://images.unsplash.com/photo-1483982258113-b72862e6cff6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBmb3Jlc3R8ZW58MHx8MHx8fDA%3D');
+  color: #cfe3c1;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 960px;
+  margin: 30px auto;
+  background: rgba(20, 30, 20, 0.95);
+  border: 2px solid #2c442d;
+  box-shadow: 0 0 25px rgba(47, 79, 47, 0.5);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, #1c3321, #0e1c12);
+  padding: 20px;
+  color: #b8ffcc;
+  border-bottom: 2px solid #264d37;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.2em;
+  color: #d1ffec;
+  text-shadow: 0 0 5px #1f3a29;
+}
+
+/* Nav */
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: #c9ffd4;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #afffb1;
+}
+
+/* Main */
+.main {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+  padding: 20px;
+  background: #142414;
+  border-right: 1px solid #2e4932;
+  color: #b8d8c0;
+}
+
+aside h2 {
+  color: #a6f3bb;
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  color: #a6ffc2;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+  color: #c8ffe6;
+}
+
+/* Content */
+.content {
+  width: 75%;
+  padding: 20px;
+  background: #111911;
+}
+
+.content h2 {
+  color: #c7f9cc;
+  margin-bottom: 12px;
+}
+
+.content p {
+  color: #d1f7d1;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Enchanted Button */
+.button {
+  display: inline-block;
+  background: linear-gradient(to bottom, #3d7543, #2a4d32);
+  color: #e6ffe6;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #5fa169;
+  box-shadow: 0 0 8px #3d7543;
+  text-decoration: none;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #4fe177, #2eae59);
+  box-shadow: 0 0 12px #4fe177;
+  color: #10210e;
+}
+
+/* Footer */
+footer {
+  background: #1b2d1b;
+  padding: 10px;
+  color: #9dcfa3;
+  text-align: center;
+  border-top: 1px solid #2c442d;
+  font-size: 0.9em;
+}
+
+.glow-text {
+  color: #d8ffc7;
+  text-shadow: 0 0 5px #8aff8a, 0 0 10px #4cff4c;
+}
