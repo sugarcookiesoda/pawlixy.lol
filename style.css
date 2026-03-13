@@ -1,6 +1,12 @@
 root {
-  background-image: url("pawlixy.lol/images/purpboard2.png");
+  background-image: url("./images/purpboard2.png");
   background-color: black;
+}
+
+img {
+
+ margin: auto
+
 }
 
 img:hover {
@@ -32,6 +38,13 @@ nav ul {
   display:flex;
   flex-wrap:wrap;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav ul li {
   padding-right:10px;
 }
@@ -39,6 +52,7 @@ nav ul li {
 body {
 
   padding:30px;
+  background-image: url("./images/purpboard2.png");
   background-color: black;
 
 }
@@ -47,6 +61,7 @@ p {
 
  color: white;
  font-family: Arial, Helvetica, sans-serif;
+ text-align: center
 
 }
 
@@ -55,6 +70,7 @@ a {
  color: #fbff00;
  text-shadow: 1px 1px #8a8c00;
  font-family: Arial, Helvetica, sans-serif;
+ text-align: center
 
 }
 
@@ -68,21 +84,39 @@ a {
  h2 {
   color: #850050;
   text-shadow: 1px 1px #570235;
- font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center
 }
 
 h1 {
  font-family: Arial, Helvetica, sans-serif;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center
 }
 
 .content {
+    float: c;
     background-color: #1f0615;
     padding: 10px;
+    border-radius: 0px;
 }
+
+    .image-container {
+      float: left;
+      margin-right: 20px;
+    }
 
 .marquee {
     background-color: #2b081d;
+    padding: 10px;
+    text-align: center
+}
+
+.navbar {
+    background-color: #2e091f;
     padding: 10px;
 }
 
